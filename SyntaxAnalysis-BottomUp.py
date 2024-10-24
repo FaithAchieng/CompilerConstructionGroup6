@@ -67,7 +67,7 @@ grammar = {
     'E': ['id']
 }
 
-def main()
+def main():
     zara_code = "id + id * id"
     tokens = tokenize(zara_code)
     print(f"Tokens: {tokens}")
